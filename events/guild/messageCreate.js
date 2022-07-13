@@ -70,7 +70,7 @@ module.exports = {
               .setDescription(`>>> My Prefix For **${message.guild.name}** is **\`${prefix}\`**
 To see all the available commands type: **\`${prefix}help\`** or **\`/help\`**`)
               .setFooter({
-                text: `Djs v13 Handler! | Made By: Zedro#2742`,
+                text: `Title | Made By: Takla Catto#2207`,
                 iconURL: client.user.displayAvatarURL({
                   dynamic: true
                 })

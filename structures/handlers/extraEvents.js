@@ -7,12 +7,12 @@ const config = require("../botconfig/config.json");
 
 module.exports = async (client) => {
 
-  console.log(`\n${`Welcome to`.brightCyan} ${`Nadid Wasique`.brightYellow} ${`Handler Console`.brightCyan}`);
+  console.log(`\n${`Welcome to`.brightRed} ${`Nadid Wasique`.bold.brightBlue} ${`Handler Console`.brightRed}`);
 
   // Console Log
   client.logger = (data) => {
     var currentdate = new Date();
-    let logstring = `${`${`logs@${config.bot_config.bot_name}`.brightYellow} ${`|`.brightMagenta} ${`${currentdate.getDate()}/${currentdate.getMonth() + 1}/${currentdate.getFullYear()}`.brightGreen} ${`|`.brightMagenta} ${`${currentdate.toLocaleTimeString()}`.brightBlue} ${`|`.brightMagenta}`}`
+    let logstring = `${`${`${config.bot_config.bot_name}`.brightRed} ${`|`.brightMagenta} ${`${currentdate.getDate()}/${currentdate.getMonth() + 1}/${currentdate.getFullYear()}`.brightGreen} ${`|`.brightMagenta} ${`${currentdate.toLocaleTimeString()}`.brightBlue} ${`|`.brightMagenta}`}`
     if (typeof data == "string") {
       console.log(logstring, data.split("\n").map(d => `${d}`.green).join(`\n${logstring} `))
     } else if (typeof data == "object") {

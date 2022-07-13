@@ -41,7 +41,7 @@ client.setMaxListeners(0);
 require('events').defaultMaxListeners = 0;
 
 console.clear();
-console.log(`${`Starting The Handlers`.brightGreen}`);
+console.log(`${`Starting The Handlers...`.brightGreen}`);
 ["extraEvents", "clientVariables", "errorHandler", "eventHandler", "commandHandler", "slashCommandHandler", "keepAlive"].forEach((handler) => {
   require(`./handlers/${handler}`)(client);
 });

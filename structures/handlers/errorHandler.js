@@ -65,5 +65,5 @@ module.exports = async (client) => {
     console.log('⚠️・[AntiCrash] | [Warning_Logs] | [End]・⚠️'.yellow.dim);
   });
 
-  client.logger(`・Loaded ErrorHandler (AntiCrash)`.brightGreen);
+  client.logger(`・Loaded AntiCrash Module`.brightGreen);
 };

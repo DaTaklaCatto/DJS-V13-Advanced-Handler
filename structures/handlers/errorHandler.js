@@ -1,5 +1,5 @@
 const config = require("../botconfig/config.json");
-const Discord = require("discord.js");
+const { MessageEmbed} = require("discord.js");
 
 /**
  * @param {Discord.Client} client
@@ -28,7 +28,7 @@ module.exports = async (client) => {
     const errorLogsChannel = client.channels.cache.get(config.botlogs.errorLogsChannel);
     if (errorLogsChannel) {
       errorLogsChannel.send({
-        embeds: [new Discord.MessageEmbed()
+        embeds: [new MessageEmbed()
           .setAuthor({
             name: client.user.username,
             iconURL: client.user.displayAvatarURL({

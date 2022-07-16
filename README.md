@@ -1,7 +1,7 @@
 # Discord.JS V13 Advanced Command Handler
 
 ## [**DISCORD SUPPORT SERVER**](https://discord.gg/Mdh23bsrhp)
-## **Repl.it Fork :** [**Click Here**](https://replit.com/@NWR57/DiscordJS-V13-Advanced-Handler?v=1)
+## **Repl.it Fork :** [**Click Here**]([https://replit.com/@NWR57/DiscordJS-V13-Advanced-Handler?v=1](https://replit.com/@NWR57/DJS-V13-Advanced-Handler?v=1))
 
 ## Installation Guide
 
